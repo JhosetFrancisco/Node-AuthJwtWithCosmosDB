@@ -1,6 +1,6 @@
 import {Response, Request, NextFunction} from 'express';
 import { Token } from '../classes/token';
-
+// Middleware verificar Token
 export const verificaToken = (req:any, res:Response, next:NextFunction) => {
     const userToken = req.get('x-token') || '';
 

@@ -5,7 +5,7 @@ import { Token } from "../classes/token";
 import { verificaToken } from "../middlewares/auth";
 
 const userRoutes = Router();
-
+// User Test router - https://custom_url.com/user/test
 userRoutes.get('/test', (req: Request, res: Response) => {
     res.json({
         ok: true,
@@ -13,7 +13,7 @@ userRoutes.get('/test', (req: Request, res: Response) => {
         mensaje: 'Todo Ok'
     })
 });
-
+// User create router - https://custom_url.com/user/create
 userRoutes.post('/create', (req: Request, res: Response) => {
     const user = {
         nombre: req.body.nombre,
@@ -40,7 +40,7 @@ userRoutes.post('/create', (req: Request, res: Response) => {
         })
     });
 });
-
+// User login router - https://custom_url.com/user/login
 userRoutes.post('/login', (req: Request, res: Response) => {
     const body = req.body;
 
