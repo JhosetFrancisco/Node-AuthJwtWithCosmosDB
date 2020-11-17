@@ -20,6 +20,7 @@
 </div>
 
 Este es un ejemplo de un servisio de autenticación usando Node, Typescript, Express y Azure Cosmo DB.
+**OBS: Este proyecto funciona con la versión SQL API del Cosmo DB.**
 
 ### Configuración del proyecto
 
@@ -29,7 +30,7 @@ Primero debe clonar el repositorio
 git clone https://github.com/JhosetFrancisco/Node-AuthJwtWithCosmosDB.git
 ```
 
-Ingresamos al archivo `config/index.ts` y editamos los parámetros de conexión a nuestro Azure CosmosDB
+Ingresamos al archivo `config/index.ts` y editamos los parámetros de conexión a nuestro Azure CosmosDB. 
 
 * `endpoint` -> Url de conexión
 * `key` -> Llave de conexión
