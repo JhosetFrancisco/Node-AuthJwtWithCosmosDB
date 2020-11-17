@@ -29,7 +29,7 @@ Primero debe clonar el repositorio
 git clone https://github.com/JhosetFrancisco/Node-AuthJwtWithCosmosDB.git
 ```
 
-Ingresamos al archivo `config.json` y editamos los parámetros de conexión a nuestro Azure CosmosDB
+Ingresamos al archivo `config/index.ts` y editamos los parámetros de conexión a nuestro Azure CosmosDB
 
 * `endpoint` -> Url de conexión
 * `key` -> Llave de conexión
