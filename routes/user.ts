@@ -86,27 +86,4 @@ userRoutes.post('/login', (req: Request, res: Response) => {
     });
 });
 
-userRoutes.post('/update', verificaToken, (req: any, res: Response) => {
-    const user = {
-        nombre: req.body.nombre,
-        email: req.body.email
-    }
-    console.log(container.item("4b31431a-0e02-40c0-8377-f0f592453de8").read());
-    container.item('7c86af04-bc5d-43e7-b6dd-46d8f9244de7').replace(user).then((exito) => {
-        console.log(exito);
-        res.json({  
-            ok: true,
-            statusCode: 200,
-            mensaje: 'Actualizado con exito'
-        });
-    }).catch((err) => {
-        console.log(err);
-        res.json({  
-            ok: false,
-            statusCode: 500,
-            mensaje: err
-        })
-    });
-});
-
 export default userRoutes;
