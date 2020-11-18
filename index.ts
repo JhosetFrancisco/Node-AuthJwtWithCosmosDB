@@ -7,6 +7,8 @@ const server = new Server();
 // Usando BodyParser
 server.app.use(bodyParser.urlencoded({extended: true}));
 server.app.use(bodyParser.json());
+// Configurar CORS
+server.app.use(cors({ origin: true, credentials: true }));
 // Agregando las rutas
 server.app.use('/', indexRoute);
 server.app.use('/user', userRoutes);
