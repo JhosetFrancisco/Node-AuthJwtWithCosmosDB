@@ -66,7 +66,7 @@ Este proyecto cuenta con cuatro metodos REST:
 * Index `/`
 
 ```http
-[GET] / HTTP/1.1
+GET / HTTP/1.1
 Host: localhost:3000
 ```
 
@@ -82,7 +82,7 @@ Host: localhost:3000
 * Testing de la ruta `/user`
 
 ```http
-[GET] /user/test HTTP/1.1
+GET /user/test HTTP/1.1
 Host: localhost:3000
 ```
 
@@ -98,7 +98,7 @@ Host: localhost:3000
 * Creando Usuario `/user/create`
 
 ```http
-[POST] /user/create HTTP/1.1
+POST /user/create HTTP/1.1
 Host: localhost:3000
 Content-Type: application/x-www-form-urlencoded
 
@@ -119,7 +119,7 @@ nombre="your-name-here"
 * Ingresando un usuario `/user/login`
 
 ```http
-[POST] /user/login HTTP/1.1
+POST /user/login HTTP/1.1
 Host: localhost:3000
 Content-Type: application/x-www-form-urlencoded
 
