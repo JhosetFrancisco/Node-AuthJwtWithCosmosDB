@@ -1,5 +1,7 @@
 # Autenticación con JWT y Cosmos DB
 
+[![Build Status](https://dev.azure.com/JhosetpFrancisco/Node%20Proyect/_apis/build/status/jf-auth-node-comosdb-sql%20-%20CI?branchName=master)](https://dev.azure.com/JhosetpFrancisco/Node%20Proyect/_build/latest?definitionId=5&branchName=master)
+
 <!-- Insertar HTML en un archivo Markdown no es legal >:v -->
 <div style="margin-bottom: 10px;">
     <img src="https://sa2020staticfiles.blob.core.windows.net/img/node-logo.png"
