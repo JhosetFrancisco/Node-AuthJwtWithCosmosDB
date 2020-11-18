@@ -2,6 +2,7 @@ import Server from "./classes/server";
 import indexRoute from "./routes";
 import userRoutes from "./routes/user";
 import bodyParser from 'body-parser';
+import cors from 'cors';
 // Declaración del Server
 const server = new Server();
 // Usando BodyParser
