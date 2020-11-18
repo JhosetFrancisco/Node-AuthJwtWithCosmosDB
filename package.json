@@ -4,7 +4,7 @@
   "description": "Authenticación clásica con JWT y CosmosDB SQL API como gestor de datos.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon dist/",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
